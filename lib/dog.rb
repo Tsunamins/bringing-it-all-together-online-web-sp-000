@@ -40,11 +40,6 @@ class Dog
     current_name = hash[:name]
     current_breed = hash[:breed]
     
-   
-    
-    
-    
-    
     
     found_dog_name = self.find_by_name(current_name)
     if found_dog_name == nil 
